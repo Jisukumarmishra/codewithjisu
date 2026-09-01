@@ -1,0 +1,11 @@
+.env
+.env.local
+.env.*.local
+
+index.html
+style.css
+main.js
+task.md
+.env
+node_modules/
+.next/
