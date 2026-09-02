@@ -4,7 +4,7 @@ export default function ContactForm() {
   const inputStyle = {
     width: "100%",
     padding: "1rem 1.5rem",
-    backgroundColor: "#1e293b",
+    backgroundColor: "#020617",
     border: "1px solid rgba(255,255,255,0.05)",
     borderRadius: "30px", // Pill shape from screenshot
     color: "#ffffff",
@@ -26,8 +26,12 @@ export default function ContactForm() {
       method="POST"
       style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}
     >
-      {/* Yahan apni Web3Forms wali Access Key paste karein 👇 */}
-      <input type="hidden" name="" value="YOUR_ACCESS_KEY_HERE" />
+      {/* 1. Name aur NEXT_PUBLIC add kar diya gaya hai 👇 */}
+      <input
+        type="hidden"
+        name="access_key"
+        value={process.env.NEXT_PUBLIC_FORM_ACCESS_KEY}
+      />
 
       {/* Success redirect URL */}
       <input
