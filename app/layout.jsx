@@ -3,6 +3,9 @@ import Navbar from "@/components/Navbar";
 import ProgressBar from "@/components/ProgressBar";
 import Footer from "@/components/Footer";
 
+// 🔥 Step 1: ThemeProvider import kiya
+import { ThemeProvider } from "@/components/ThemeProvider";
+
 export const metadata = {
   title: "Jisu Kumar | MERN Developer | Full Stack Developer",
   description: "MERN Developer, Full Stack Developer and Problem Solver.",
@@ -24,7 +27,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark">
+    // 🔥 Step 2: className="dark" hatakar suppressHydrationWarning lagaya
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -38,10 +42,13 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <ProgressBar />
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        {/* 🔥 Step 3: Sab kuch ThemeProvider me wrap kar diya */}
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <ProgressBar />
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

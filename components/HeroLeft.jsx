@@ -147,8 +147,8 @@ export default function HeroLeft() {
         }}
       >
         <a
-          href="/Jisu_Kumar_Resume.pdf"
-          download="Jisu_Kumar_Resume.pdf"
+          href="/Jisu_Resume.pdf"
+          download="Jisu_Resume.pdf"
           style={{
             display: "inline-flex",
             alignItems: "center",
