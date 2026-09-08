@@ -20,7 +20,7 @@ export const FALLBACK_PROJECTS = [
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     status: "Live",
     githubUrl: "https://github.com/Jisukumarmishra/DevTinder-Web",
-    liveUrl: "#",
+    liveUrl: "https://devtinder.jisukumar.in",
     accentColor: "#ec4899",
   },
   {
