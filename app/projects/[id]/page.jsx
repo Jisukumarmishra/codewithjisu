@@ -158,25 +158,6 @@ export default function ProjectDetail({ params }) {
           ))}
         </div>
 
-        {project.liveUrl && project.liveUrl !== "#" && (
-          <a
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              backgroundColor: "#3b82f6",
-              color: "#ffffff",
-              padding: "0.6rem 1.2rem",
-              borderRadius: "8px",
-              textDecoration: "none",
-              fontWeight: "500",
-              fontSize: "0.95rem",
-            }}
-          >
-            Live Demo ↗
-          </a>
-        )}
-
         {/* Action Buttons (Ab hamesha show honge) */}
         <div style={{ display: "flex", gap: "29.5rem" }}>
           <a
