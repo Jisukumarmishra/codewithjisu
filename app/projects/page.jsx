@@ -44,7 +44,7 @@ export const FALLBACK_PROJECTS = [
     technologies: ["React", "Redux", "Tailwind CSS", "AI/ML APIs"],
     status: "Live",
     githubUrl: "https://github.com/Jisukumarmishra/Netflix-Gpt",
-    liveUrl: "#",
+    liveUrl: "https://netflixgpt.jisukumar.in/",
     accentColor: "#e50914",
   },
 ];

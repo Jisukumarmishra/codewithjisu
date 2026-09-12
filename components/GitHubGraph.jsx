@@ -377,12 +377,17 @@ export default function GitHubGraph() {
             grid-template-columns: 1fr;
           }
 
+          /* CHANGES FOR HORIZONTAL SCROLL ON MOBILE */
           .contrib-graph-area {
             padding: 24px 18px 28px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
           }
-
           .contrib-months,
-          .contrib-grid,
+          .contrib-grid {
+            min-width: 800px; /* Forces scroll bar, prevents cells from shrinking too much */
+            gap: 3px;
+          }
           .contrib-week {
             gap: 3px;
           }
