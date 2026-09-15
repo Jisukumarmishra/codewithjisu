@@ -9,6 +9,16 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 export const metadata = {
   title: "Jisu Kumar | MERN Developer | Full Stack Developer",
   description: "MERN Developer, Full Stack Developer and Problem Solver.",
+  url: "https://jisukumar.in",
+  type: "website",
+  images: [
+    {
+      url: "https://jisukumar.in/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Jisu Kumar Portfolio",
+    },
+  ],
   keywords: [
     "MERN",
     "Full Stack",
@@ -21,7 +31,16 @@ export const metadata = {
   openGraph: {
     title: "Jisu Kumar | MERN Developer | Full Stack Developer",
     description: "MERN Developer, Full Stack Developer and Problem Solver.",
+    url: "https://jisukumar.in",
     type: "website",
+    images: [
+      {
+        url: "https://jisukumar.in/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jisu Kumar Portfolio",
+      },
+    ],
   },
 };
 
