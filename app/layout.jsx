@@ -7,11 +7,14 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata = {
-  title: "Jisu Kumar | MERN Developer | Full Stack Developer",
-  description: "MERN Developer, Full Stack Developer and Problem Solver.",
+  title:
+    "Jisu Kumar | Full Stack Developer | Open Source Contributor | MERN Developer",
+  description:
+    "Full Stack Developer, Open Source Contributor, MERN Developer, and Problem Solver.",
   keywords: [
-    "MERN",
     "Full Stack",
+    "Open Source",
+    "MERN",
     "React",
     "Node.js",
     "Spring Boot",
@@ -19,8 +22,10 @@ export const metadata = {
   ],
   authors: [{ name: "Jisu Kumar" }],
   openGraph: {
-    title: "Jisu Kumar | MERN Developer | Full Stack Developer",
-    description: "MERN Developer, Full Stack Developer and Problem Solver.",
+    title:
+      "Jisu Kumar | Full Stack Developer | Open Source Contributor | MERN Developer ",
+    description:
+      "Full Stack Developer | Open Source Contributor | MERN Developer , Open Source Contributorand Problem Solver.",
     url: "https://jisukumar.in",
     type: "website",
     images: [
