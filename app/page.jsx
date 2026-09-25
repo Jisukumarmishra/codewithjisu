@@ -3,7 +3,7 @@ import HeroRight from "@/components/HeroRight";
 import GitHubGraph from "@/components/GitHubGraph";
 
 export const metadata = {
-  title: "Jisu Kumar | MERN Developer | Full Stack Developer",
+  title: "Jisu Kumar |  Full Stack Developer | MERN Developer |",
   description: "MERN Developer, Full Stack Developer and Problem Solver.",
 };
 

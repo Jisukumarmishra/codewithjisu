@@ -7,8 +7,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata = {
-  title:
-    "Jisu Kumar | Full Stack Developer | Open Source Contributor | MERN Developer",
+  title: "Jisu Kumar | Open Source Contributor | Full Stack Developer",
   description:
     "Full Stack Developer, Open Source Contributor, MERN Developer, and Problem Solver.",
   keywords: [
