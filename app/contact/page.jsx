@@ -146,7 +146,7 @@ export default function ContactPage() {
               Email Me
             </h3>
             <p style={{ color: "#94a3b8", fontSize: "1rem" }}>
-              jisuk138@gmail.com
+              jisukumar.dev@gmail.com
             </p>
           </div>
 

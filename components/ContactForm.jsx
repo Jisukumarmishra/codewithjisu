@@ -1,6 +1,7 @@
 "use client";
 
 export default function ContactForm() {
+  // console.log("ACCESS KEY:", process.env.NEXT_PUBLIC_FORM_ACCESS_KEY);
   const inputStyle = {
     width: "100%",
     padding: "1rem 1.5rem",
@@ -32,14 +33,12 @@ export default function ContactForm() {
         name="access_key"
         value={process.env.NEXT_PUBLIC_FORM_ACCESS_KEY}
       />
-
       {/* Success redirect URL */}
       <input
         type="hidden"
         name="redirect"
         value="https://web3forms.com/success"
       />
-
       {/* 2-Column Grid for Name and Email */}
       <div
         style={{
@@ -71,7 +70,6 @@ export default function ContactForm() {
           }
         />
       </div>
-
       {/* Subject Field */}
       <input
         type="text"
@@ -82,7 +80,6 @@ export default function ContactForm() {
         onFocus={(e) => (e.target.style.borderColor = "#3b82f6")}
         onBlur={(e) => (e.target.style.borderColor = "rgba(255,255,255,0.05)")}
       />
-
       {/* Message Area */}
       <textarea
         name="message" // 🔥 Name attribute added
@@ -92,7 +89,6 @@ export default function ContactForm() {
         onFocus={(e) => (e.target.style.borderColor = "#3b82f6")}
         onBlur={(e) => (e.target.style.borderColor = "rgba(255,255,255,0.05)")}
       ></textarea>
-
       {/* Submit Button aligned to left like the screenshot */}
       <div style={{ textAlign: "left" }}>
         <button
