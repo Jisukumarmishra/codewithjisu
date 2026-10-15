@@ -7,7 +7,7 @@ const DSA_PLATFORMS = [
     name: "LeetCode",
     url: "https://leetcode.com/u/JisuKumar/",
     username: "@jisu_kumar",
-    stats: "350+ Problems Solved",
+    stats: "400+ Problems Solved",
     color: "#ffa116",
     icon: (
       <svg viewBox="0 0 24 24" width="40" height="40" fill="currentColor">
@@ -19,7 +19,7 @@ const DSA_PLATFORMS = [
     name: "GeeksforGeeks",
     url: "https://www.geeksforgeeks.org/profile/jisukd5k6",
     username: "@jisu_kumar",
-    stats: "150+ Problems Solved",
+    stats: "Solving Unique Questions Present At This Platform",
     // badge: "5 Star",
     color: "#2f8d46",
     icon: (
